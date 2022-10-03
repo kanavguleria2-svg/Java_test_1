@@ -15,7 +15,7 @@ class ProductLoader{
     private static List<Product> lt = new ArrayList<>();
     
     public static void loadProduct() throws Exception {
-        
+        lt.clear();
         BufferedReader bf = new BufferedReader(new FileReader(new File("src/basic_java/product.txt")));
         
         String line;
